@@ -1,0 +1,218 @@
+/*banner section css*/
+.herbal-ayurveda-banner-section{ 
+    margin-bottom: 50px;
+}
+.herbal-ayurveda-banner-section .slider-content {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    text-align: left;
+    z-index: 99;
+    left: 15%;
+    right: 45%;
+}
+.herbal-ayurveda-banner-section .slider-content h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.herbal-ayurveda-banner-section .slider-content h1:hover{
+    color: #5b8c51 !important;
+}
+.herbal-ayurveda-banner-section .slider-content p{  
+    font-weight: 500;   
+}
+.herbal-ayurveda-banner-section .slider-content .herbal-ayurveda-slider-button a{  
+    color: #404a3d !important;   
+    font-size: 16px;
+    padding: 12px 20px;
+    font-weight: 600;
+}
+.herbal-ayurveda-banner-section .slider-content .herbal-ayurveda-slider-button a:hover{  
+    background-color: #5b8c51 !important;   
+    color:#fff!important
+}
+
+/*About Us Section CSS*/
+.about-us-row{
+    margin-bottom: 4em;
+}
+.about-heading{
+    color:#5b8c51;
+    letter-spacing: 3px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+.about-icon{
+    margin-bottom: 0em;
+}
+.about-content h2{
+    font-size: 50px;
+    line-height: 55px;
+    color: #404a3d;
+    font-weight: 700;
+}
+.leaf-para,.bowl-para{
+    font-size: 20px;
+    line-height: 30px;
+    color: #404a3d;
+    font-weight: 600;
+    margin: 5px;
+    font-family: barlow;
+}
+.leaf-img img,.bowl-img img{
+    margin-top: 10px;
+}
+.about-us-section .image-left{
+    position: relative;
+    text-align: right;
+    margin-right: 2%;
+    z-index: 2;
+}
+.about-us-section .abt-main-image {
+    position: relative;
+    left: 32%;
+    top: 0%;
+    padding: 0px;
+}
+.about-us-section .abt-icon-img{
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    padding: 50px;
+}
+.abt-icon-img img{
+    border-right: 3px dashed #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: auto;
+}
+.abt-icon-img:after{
+    content: '';
+    background-color: #f5f0e9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    border-radius: 50%;
+    z-index: -1;
+}
+.about-left-section{
+    gap:0em;
+}
+:where(.about-us-row){
+    gap:0em;
+    }
+.about-btn a{
+    font-size: 16px;
+    color: #404a3d!important;
+    font-family: barlow;
+    font-weight: 600;
+    background-color: #ffdb61;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.about-btn a:hover{
+    background-color: #5b8c51 !important;
+    color: #fff !important;
+}
+.abt-main-image{
+    margin-bottom: 0em;
+}
+.two-column-section{
+    margin-bottom: 1em;
+}
+/*Responsive Media Css*/
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .herbal-ayurveda-banner-section{ 
+        min-height: 180px !important;
+    }
+    .slider-content .herbal-ayurveda-slider-button a{
+        font-size: 12px !important;
+        padding: 12px 8px !important;
+    }
+    .herbal-ayurveda-banner-section p,.herbal-ayurveda-banner-section h1{
+        display: none;
+    }
+    .about-us-section .abt-main-image {
+        left:12%;
+        top: -10%;
+        padding: 35px;
+    }
+    .about-us-section .abt-icon-img{ 
+        padding: 35px;
+        top: 10%;
+        left: -10%;
+    }
+    .about-left-section{
+        margin-bottom: 0em;
+    } 
+    .leaf-main,.bowl-main{
+        flex-wrap: nowrap !important;
+        margin-bottom: 0em;
+    }  
+    .leaf-main:not(.is-not-stacked-on-mobile)>.leaf-img-section,.bowl-main:not(.is-not-stacked-on-mobile)>.bowl-img-section{
+        flex-basis: 30% !important;
+    }
+    .leaf-main:not(.is-not-stacked-on-mobile)>.leaf-para-section,.bowl-main:not(.is-not-stacked-on-mobile)>.bowl-para-section{
+        flex-basis: 70% !important;
+    } 
+    :where(.leaf-main),:where(.bowl-main){
+        gap:0em;
+    } 
+    :where(.two-column-section){
+        gap:1em;
+    }
+    .about-content{
+        padding-left: 10px;
+    }
+    .herbal-ayurveda-banner-section .slider-content .herbal-ayurveda-slider-button {
+        padding: 15px 12px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 992px){
+    .herbal-ayurveda-banner-section{
+        min-height: 400px !important;
+    }
+    .herbal-ayurveda-banner-section p{
+        display: none;
+    }  
+    .about-us-row{
+        flex-wrap: nowrap !important;
+    }
+    .about-us-section .abt-main-image{
+        padding: 35px;
+        left:15%;
+        top:-10%;
+    }
+    .about-us-section .abt-icon-img{ 
+        padding: 40px;
+        top:4%;
+    }
+    :where(.about-us-row){
+        gap:2em;
+    }   
+    .two-column-section,.leaf-main,.bowl-main{
+        flex-wrap: nowrap !important;
+    }
+    .leaf-main:not(.is-not-stacked-on-mobile)>.leaf-img-section,.bowl-main:not(.is-not-stacked-on-mobile)>.bowl-img-section{
+        flex-basis: 30% !important;
+    }
+    .leaf-main:not(.is-not-stacked-on-mobile)>.leaf-para-section,.bowl-main:not(.is-not-stacked-on-mobile)>.bowl-para-section{
+        flex-basis: 70% !important;
+    }
+    :where(.leaf-main),:where(.bowl-main){
+        gap:0em;
+    }  
+    .leaf-img,.bowl-img{
+        margin-top: 2em;
+    }
+    .herbal-ayurveda-banner-section .slider-content{
+        right: 0;
+    }
+}

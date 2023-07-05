@@ -1,0 +1,128 @@
+.herbal-ayurveda-slider-button .wp-element-button,
+.herbal-ayurveda-banner-section p,
+.about-content .about-heading,
+.about-content p,
+.two-column-section p{
+    font-family: 'Barlow', sans-serif !important;
+}
+.herbal-ayurveda-banner-section h1,
+.about-content h2{
+    font-family: 'Amatic SC', cursive !important;
+}
+.slider-content h1,p,.herbal-ayurveda-slider-para,.slider-content.wp-block-buttons{
+    margin: 0px;
+    padding: 0px;
+}
+.slider-content h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.slider-content h1:hover{
+    color: #5b8c51 !important;
+}
+.slider-content p{  
+    font-weight: 500;   
+}
+.slider-content .herbal-ayurveda-slider-button a{  
+    color: #404a3d !important;   
+    font-size: 16px;
+    padding: 12px 20px;
+    font-weight: 600 !important;
+}
+.herbal-ayurveda-slider-button .wp-element-button:hover{  
+    background-color: #5b8c51 !important;   
+    color:#fff!important
+}
+.about-heading{
+    color:#5b8c51 !important;
+    letter-spacing: 3px;
+    line-height: 35px;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+.about-content .about-para{
+    color: #8d8b8b !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.about-content h2{
+    font-size: 50px;
+    line-height: 55px;
+    color: #404a3d !important;
+    font-weight: 700;
+    margin: 0px;
+}
+.leaf-para,.bowl-para{
+    font-size: 20px;
+    line-height: 30px;
+    color: #404a3d !important;
+    font-weight: 600;
+    margin: 5px;
+}
+.about-btn .wp-block-button__link{
+    font-size: 16px;
+    color: #404a3d!important;
+    font-family: barlow;
+    font-weight: 600;
+    background-color: #ffdb61 !important;
+    padding: 12px 20px;
+    border-radius: 5px !important;
+    display: inline-block;
+}
+.about-icon{
+    margin-bottom: 0em;
+}
+.about-para{
+    margin: 0px;
+}
+.two-column-section{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.leaf-img,.bowl-img{
+    margin-top: 1em;
+}
+.about-btn{
+    margin-top: 0px;
+}
+.about-us-section .image-left{
+    position: relative;
+    text-align: right;
+    margin-right: 2%;
+    z-index: 2;
+}
+.about-us-section .abt-main-image {
+    position: relative;
+    left: 10%;
+    top: 0%;
+    padding: 0px;
+}
+.about-us-section .abt-icon-img{
+    position: absolute;
+    left: -300%;
+    top: 30%;
+    padding: 0px;
+}
+.abt-icon-img img{
+    border-right: 3px dashed #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: auto;
+}
+.abt-icon-img:after{
+    content: '';
+    background-color: #f5f0e9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    border-radius: 50%;
+    z-index: -1;
+}
+.about-us-section .learn-more-btn .wp-element-button:hover{  
+    background-color: #5b8c51 !important;   
+    color:#fff!important
+}

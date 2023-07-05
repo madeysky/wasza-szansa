@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pawel &#8211; WASZA Szansa</title>
+	<atom:link href="https://madeysky.github.io/your-chance/author/pawel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://madeysky.github.io/your-chance</link>
+	<description>Od diagnozy do rezultatu</description>
+	<lastBuildDate>Mon, 22 May 2023 15:10:56 +0000</lastBuildDate>
+	<language>pl-PL</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
+
+<image>
+	<url>https://madeysky.github.io/your-chance/wp-content/uploads/2023/05/ikona.jpg</url>
+	<title>pawel &#8211; WASZA Szansa</title>
+	<link>https://madeysky.github.io/your-chance</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Witaj, świecie!</title>
+		<link>https://madeysky.github.io/your-chance/witaj-swiecie/</link>
+					<comments>https://madeysky.github.io/your-chance/witaj-swiecie/#comments</comments>
+		
+		<dc:creator><![CDATA[pawel]]></dc:creator>
+		<pubDate>Mon, 22 May 2023 15:10:56 +0000</pubDate>
+				<category><![CDATA[Bez kategorii]]></category>
+		<guid isPermaLink="false">https://madeysky.github.io/your-chance/?p=1</guid>
+
+					<description><![CDATA[Witamy w WordPressie. To jest twój pierwszy wpis. Edytuj go lub usuń, a następnie zacznij pisać!]]></description>
+										<content:encoded><![CDATA[
+<p>Witamy w WordPressie. To jest twój pierwszy wpis. Edytuj go lub usuń, a następnie zacznij pisać!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://madeysky.github.io/your-chance/witaj-swiecie/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
